@@ -1,0 +1,118 @@
+body {
+  background: #FFFFFF;
+}
+
+header {
+  color: #4A4A4A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+header .quizName {
+  font-size: 44px;
+  margin-top: 50px;
+}
+header .quizTitle {
+  font-size: 16px;
+  margin-top: 40px;
+  padding: 0 60px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+  margin-top: 50px;
+  font-size: 14px;
+}
+section .answerArea {
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.5;
+}
+section .answerArea label {
+  position: relative;
+  display: block;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 20px 0;
+  font-size: 14px;
+  text-indent: 53px;
+  cursor: pointer;
+  color: #999999;
+}
+section .answerArea label:last-child {
+  border-bottom: none;
+}
+section .answerArea label .right {
+  background: url(./img/right.png) center center no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  width: 20px;
+  right: 3%;
+  height: 14px;
+}
+section .answerArea label .wrong {
+  background: url(./img/wrong.png) center center no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  width: 14px;
+  right: 3%;
+  height: 14px;
+}
+section .answerArea label input {
+  position: absolute;
+  left: -9999px;
+}
+section .answerArea label input:checked + i {
+  background: #EC6C46;
+  border: none;
+}
+section .answerArea label input:checked + i::after {
+  position: absolute;
+  top: 8px;
+  left: 7px;
+  content: '';
+  background: url(./img/radioRight.png) center center no-repeat;
+  background-size: 100% 100%;
+  width: 8px;
+  height: 6px;
+  color: #fff;
+  border-radius: 50%;
+}
+section .answerArea label i {
+  position: absolute;
+  left: 13px;
+  top: 14px;
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  outline: 0;
+  border: 1px solid #E7E7E7;
+}
+section .answerArea label i i::after {
+  content: '';
+}
+section .answerArea label .hide {
+  display: none;
+}
+section .answerArea .changePosition {
+  text-indent: 0px;
+  padding-right: 25%;
+}
+section button {
+  margin-top: 50px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  padding: 13px 44px;
+  background: #EC6C46;
+  border-radius: 30px;
+  border: none;
+}
+section button:focus {
+  outline: none;
+}

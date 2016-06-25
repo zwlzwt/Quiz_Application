@@ -1,0 +1,19 @@
+{
+  "name": "faq",
+  "version": "1.0.0",
+  "description": "faq application",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhaoweilong",
+  "license": "ISC"
+}
