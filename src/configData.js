@@ -17,9 +17,6 @@ var scoreRange = [
 ]
 
 
-function w() {
-  console.log('ceshi');
-}
 var quizData = {
     "submitContent": '确定',
     "nextSubmitContent":'下一题',
