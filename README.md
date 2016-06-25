@@ -92,11 +92,11 @@ var quizData = {
 ```
 ### 效果预览
 * 首页
-![首页](/path/to/fontPage.jpg)
+![首页](./example/img/fontPage.jpg)
 * 答题页
-![答题页](/path/to/question.jpg)
+![答题页](./example/img/question.jpg)
 * 结果页
-![结果页](/path/to/results.jpg)
+![结果页](./example/img/results.jpg)
 * 分数结尾页
-![分数结尾页](/example/img/endPage.jpg)
+![分数结尾页](./example/img/endPage.jpg)
 
