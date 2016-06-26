@@ -1,10 +1,9 @@
-### Usage
+## Usage
 * 用法引入文件(可请求后端数据建议使用fetch～～)
 ```
   <script type="text/javascript" src="FAQ.js"></script>
 ```
-* 数据结构参考文件: src/configData.js
-> 引入模块化require.js可以更加方便清晰的处理数据模块.（node.js中自带）
+* 数据结构参考文件: src/configData.js  >>引入模块化require.js可以更加方便清晰的处理数据模块.（node.js中自带）此处只是模拟实现require的基本用法
 ```
   var scoreRange = [
   {
