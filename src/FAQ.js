@@ -1,3 +1,5 @@
+var scoreRange = require('./configData').scoreRange;
+var quizData = require('./configData').quizData;
 var currentQuestion = 0;
 var score = 0;
 var submitBtn = document.getElementsByClassName('submit')[0];

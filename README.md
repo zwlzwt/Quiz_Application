@@ -4,6 +4,7 @@
   <script type="text/javascript" src="FAQ.js"></script>
 ```
 * 数据结构参考文件: src/configData.js
+> 引入模块化require.js可以更加方便清晰的处理数据模块.（node.js中自带）
 ```
   var scoreRange = [
   {
@@ -99,4 +100,3 @@ var quizData = {
 ![结果页](./example/img/results.png)
 * 分数结尾页
 ![分数结尾页](./example/img/endPage.png)
-
