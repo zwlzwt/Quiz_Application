@@ -90,12 +90,3 @@ var quizData = {
     ]
 };
 ```
-### 效果预览
-* 首页
-![首页](./example/img/fontPage.png)
-* 答题页
-![答题页](./example/img/question.png)
-* 结果页
-![结果页](./example/img/results.png)
-* 分数结尾页
-![分数结尾页](./example/img/endPage.png)
